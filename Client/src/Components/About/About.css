@@ -1,0 +1,44 @@
+/* About.css */
+.About {
+    margin: 2rem 4rem;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.About.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.About h1 {
+    font-size: 3rem;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.about-text {
+    width: 45%;
+    text-align: start;
+    font-size: 1.1rem;
+}
+
+.about-text p {
+    padding-bottom: 25px;
+}
+
+.about-image {
+    width: 50%;
+}
+
+.about-image img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 6px;
+}

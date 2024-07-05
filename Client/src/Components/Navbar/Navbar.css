@@ -1,0 +1,102 @@
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 32px;
+    color: #EEEEEE;
+    font-weight: 700;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    top: 100%;
+    left: 0;
+    height: 2px;
+    background: white;
+    transition: width 0.3s; /* Smooth width transition */
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+    /* Styles for medium screens (tablets) */
+    .header {
+        padding: 15px 5%;
+    }
+
+    .logo {
+        font-size: 28px;
+    }
+
+    .navbar a {
+        font-size: 16px;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Styles for small screens (large phones) */
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px 5%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .navbar a {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .navbar a::before {
+        display: none; /* Hide underline effect on small screens */
+    }
+}
+
+@media (max-width: 576px) {
+    /* Styles for extra small screens (small phones) */
+    .header {
+        padding: 10px 2%;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .navbar a {
+        font-size: 14px;
+    }
+}

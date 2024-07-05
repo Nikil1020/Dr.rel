@@ -1,0 +1,7 @@
+body.fan-post-background{
+    background: url('../../assets/vande.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: white;
+}

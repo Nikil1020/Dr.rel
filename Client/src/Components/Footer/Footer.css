@@ -1,0 +1,37 @@
+/* Footer.css */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: justify; /* Align footer content to center */
+  }
+  
+  .footer-content {
+    width: 75%; /* Adjust width as needed */
+    margin-left: 38%; /* Center align content */
+    padding-bottom: 20px;
+  }
+  
+  .footer-section {
+    width: 30%;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  .logo-text {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .logo-text span {
+    color: #f44336;
+  }
+  
+  .footer-bottom {
+    background-color: #222;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.8rem;
+  }
+  

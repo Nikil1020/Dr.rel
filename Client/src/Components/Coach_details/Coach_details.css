@@ -1,0 +1,7 @@
+body.coach-background {
+    background: url('../../assets/humsafar.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: white;
+  }

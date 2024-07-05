@@ -1,0 +1,55 @@
+.Features{
+    margin: 4rem 6rem;
+    color: #2a2a2a;
+    text-align: center;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.Features.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.Features h1{
+    font-size: 3rem;
+}
+
+.featurecard{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-card{
+   width: 32%;
+   text-align: justify;
+   box-shadow: 0 5px 25px rgba(0,0,0,0);
+   border-radius: 7px;
+   cursor: pointer;
+   padding: 1rem .8rem;
+}
+
+.f-image{
+    height: 200px;
+    overflow: hidden;
+    border-radius: 7px;
+}
+
+.f-image img{
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+    border-radius: 7px;
+}
+
+.f-image:hover img{
+    transform: scale(1.3);
+}
+
+.f-card h4{
+    color: #2a2a2a;
+    font-size: 1.3rem;
+    padding: .9rem 0 .2rem 0;
+    padding-bottom: 2rem;
+}

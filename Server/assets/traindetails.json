@@ -1,0 +1,96 @@
+{
+    "12636": {
+      "trainNumber": "12636",
+      "trainName": "Vaigai Express",
+      "CoachType" : "LHB Rakes",
+
+      "route": [
+        {
+          "station": "Madurai",
+          "departureTime": "06:40 AM"
+        },
+        {
+          "station": "Tiruchirapalli",
+          "arrivalTime": "09:00 AM",
+          "departureTime": "09:15 AM"
+        },
+        {
+            "station": "Tambaram",
+            "arrivalTime": "01:10 PM",
+            "departureTime": "01:15 PM"
+          },
+        {
+          "station": "Chennai Egmore",
+          "arrivalTime": "01:45 PM"
+        }
+        
+      ]
+    },
+    "22504": {
+      "trainNumber": "22504",
+      "trainName": "Vivek Express",
+      "CoachType" : "LHB Rakes",
+
+      "route": [
+        {
+          "station": "Dibrugarh",
+          "departureTime": "19.55 PM"
+        },
+        {
+          "station": "New Tinsukia",
+          "arrivalTime": "20.45 PM",
+          "departureTime": "20:50 PM"
+        },
+        {
+            "station": "Guwahati",
+            "arrivalTime": "06.50 AM",
+            "departureTime": "07.05 AM"
+        },
+        {
+          "station": "New Jalpaiguri",
+          "arrivalTime": "14.55 PM",
+          "departureTime": "15.05 PM"
+        },
+        {
+          "station": "Cuttack",
+          "arrivalTime": "08.10 AM",
+          "departureTime": "08.15 AM"
+        },
+        {
+          "station": "Vishakapatnam",
+          "arrivalTime": "15.30 PM",
+          "departureTime": "15.50 PM"
+        },
+        {
+          "station": "Vijayawada",
+          "arrivalTime": "09.10 AM",
+          "departureTime": "09.15 AM"
+        },
+        {
+          "station": "Coimbatore",
+          "arrivalTime": "10.42 AM",
+          "departureTime": "10.45 AM"
+        },
+        {
+          "station": "Kollam",
+          "arrivalTime": "17.48 PM",
+          "departureTime": "17.50 PM"
+        },
+        {
+          "station": "Thiruvananthapuram",
+          "arrivalTime": "19.10 PM",
+          "departureTime": "19.15 PM"
+        },
+        {
+          "station": "Nagercoil",
+          "arrivalTime": "21.05 PM",
+          "departureTime": "21.10 PM"
+        },
+        {
+          "station": "Kanniyakumari",
+          "arrivalTime": "21:55 PM"
+        }
+        
+      ]
+    }
+  }
